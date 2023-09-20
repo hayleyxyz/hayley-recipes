@@ -1,0 +1,287 @@
+% Created by Hayley Berry on 2022-09-20
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\summaryHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\skillsLine}[4]{
+  \small { \textit{ \textbf{ Skills: }{#1} } } \\ \vspace{3pt}
+  \vspace{3pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Hayley Berry} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:07936738880}{07936738880}
+    $|$
+    \faEnvelope \hspace{.5pt} \href{mailto:hayley@madokami.com}{hayley@madokami.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/hayley-berry-xyz/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/hayleyxyz}{GitHub}
+\end{center}
+
+
+%----------- Summary -----------
+
+\section{Summary}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        An experienced backend software developer, with a proven track record of delivering bespoke technical solutions for a number
+        of high-profile clients, working as part of a development team, often as lead developer in a number of tech companies.
+        Hayley also has experience of being in the role of leading DevOps in multiple companies, specifically managing AWS environments.
+    }}
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming:}{ PHP 7+, JS, Python, C\#, C++, JS, HTML/CSS } \\ \vspace{3pt}
+        \textbf{Frameworks/Libraries:}{ Laravel 4, 5+, PHPUnit, Vue.js, Angular, Symfony, Zend Framework } \\ \vspace{3pt}
+        \textbf{DevOps:}{ AWS, CloudFormation, Ansible, Packer, Vagrant, Jenkins, Debian \& RHEL-based Linux, nginx, Apache } \\ \vspace{3pt}
+        \textbf{Misc:}{ MySQL, git (+ gitflow), TDD, GDPR compliance, ISO27001 compliance } \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {ITC Compliance}{Bristol (Remote)}
+      {Software Developer, Lead DevOps}{Jan 2021 \textbf{--} Present}
+        \resumeItemListStart
+            \resumeItem{Leading development on a number of Laravel 5 projects for the wider microservice architecture.}
+            \resumeItem{Lead DevOps for deployment and management of the AWS infrastructure.}
+            \resumeItem{Updating Ansible deployment to support different PHP versions depending on the project.}
+            \resumeItem{Setting up a UAT environment, based on the production environment in a separate VPC to ensure separation.}
+            \resumeItem{Creating a number of auditing tools to ensure GDPR compliance.}
+            \resumeItem{Ensuring the infrastructure was compliant with GDPR, ISO27001 and internal security policies.}
+            \resumeItem{Writing PHPUnit tests for all new code, and adding tests for existing code where possible.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {Siteset Digital}{Maidenhead, Berkshire (Remote)}
+        {DevOps Lead}{March 2018 \textbf{--} May 2020}
+          \resumeItemListStart
+            \resumeItem{I lead migrating existing infrastructure from 2 dedicated servers to auto-scaling solution on AWS.}
+            \resumeItem{Orchestrating new infrastructure with/writing new CloudFormation templates.}
+            \resumeItem{Creating solution to resolve an issue with NLB passing traffic to instances while they\textquotesingle re still initializing by creating a ASG lifecycle hook which is triggered via systemd unit post-startup.}
+            \resumeItem{Leading development on a bespoke tool “acmectl” to manage provisioning and renewing TLS certificates for 2,500+ unique web domains, using LetsEncrypt and ACME protocol.}
+            \resumeItem{Running a training workshop for the rest of the team on CloudFormation.}
+          \resumeItemListEnd
+
+    \resumeSubheading
+        {Rebellion}{Oxford}
+        {Software Developer}{March 2017 \textbf{--} March 2018}
+        \resumeItemListStart
+            \resumeItem{At Rebellion I maintained the existing codebase, which was a Laravel 4 application, as well as developing new features.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Tails.com}{Richmond, London}
+      {Software Developer}{July 2016 \textbf{--} March 2017}
+        \resumeItemListStart
+            \resumeItem{My role at Tails.com was to develop new features for the Flask (Python) based website, as well as maintaining the existing codebase.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Redberry Digital}{Henley-on-Thames, Oxfordshire}
+      {Software Developer}{September 2012 \textbf{--} April 2016}
+        \resumeItemListStart
+            \resumeItem{My role at digital agency Redberry was to work on projects for a number of clients including Universal, Working Title Films, Waterstones.}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+
+        \vspace{-2pt}\item
+        \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+          \small \textbf{St. Jame\textquotesingle s Place Infrastructure Migration} $|$ \emph{AWS, CloudFormation, RHEL, PHP} \\
+        \end{tabular*}\vspace{-7pt}
+         
+          \resumeItemListStart
+            \resumeItem{I joined Siteset just prior to migration from two Rackspace dedicated servers to various AWS services.
+              The infrastructure was designed and created via CloudFormation templates. These templates were
+              heavily parameterized so the same templates could be used to create different environments (Dev, UAT, pre-live production).
+              This involved a steep learning curve for the entire team. I managed to lead on many aspects of the
+              migration, e.g creating a VPN between AWS private subnet and the Rackspace dedicated servers and
+              using \emph{rsync} to transfer required data.
+              
+              As I managed to learn CloudFormation ahead of the team, I ran a day training workshop to teach the
+              rest of the team how to create and maintain CF templates.
+            }
+          \resumeItemListEnd
+
+          \vspace{-2pt}\item
+        \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+          \small \textbf{acmectl} $|$ \emph{PHP, Laravel, LetsEncrypt/ACME Protocol, nginx} \\
+        \end{tabular*}\vspace{-7pt}
+         
+          \resumeItemListStart
+            \resumeItem{
+              In response to Google Chrome planning to label all non-TLS websites as "Not Secure", I lead development on a bespoke tool “acmectl” to manage provisioning and renewing TLS certificates for 2,500+ unique web domains, using LetsEncrypt and ACME protocol.
+              This tool was written in PHP using the Laravel framework, and was designed to be run continuously via systemd, and stagger the renewal of certificates to avoid hitting LetsEncrypt rate limits.
+              It would handle the entire renewal process, including provisioning the certificate, providing validation to LetsEncrypt, and updating the nginx configuration to use the new certificate.
+              It also had a web interface to allow the team to view the status of certificates, and manually trigger renewals and review the specific error of a failed renewal.
+             }
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+
+
+%----------- PERSONAL -----------
+
+\section{Personal}
+  \vspace{3pt}
+  
+    
+    { I like to code in my personal time, my preferred languages are C\# and C++. I have a specific interest in reverse engineering using Ghidra and IDA Pro.
+    Recently I have been developing on ESP32 and ESP8266 microcontrollers. Some of my projects can be found on my GitHub profile. }
+    
+    \resumeItemListStart
+        \resumeItem{\textbf{\href{https://github.com/hayleyxyz/esp32-printer-lib}{esp32-printer-lib}} \& \textbf{\href{https://github.com/hayleyxyz/esp32-printer-client}{esp32-printer-client}}: an C++ ESP32 Arduino library and client for a thermal printer, the protocol for which I reverse engineered.}
+        \resumeItem{\textbf{\href{https://github.com/hayleyxyz/idaxex}{idaxex}}: an C++ IDA Pro plugin to load and decompile Xbox 360 executable (.xex) files. I maintained this plugin to use IDA 7 plugin API, which was a major change from IDA 6.}
+        \resumeItem{\textbf{\href{https://github.com/hayleyxyz/libxe}{libxe}}: an C++ library for various Xbox 360 internal file formats.}
+    \resumeItemListEnd
+
+
+\end{document}
