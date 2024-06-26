@@ -14,4 +14,5 @@
 - Herbs: Thyme, Rosemary, Sage, Oregano etc. (optional)
 
 ## Method
-- Cut the onion, and mince the garlic cloves. 
+
+- Cut the onion, and mince the garlic cloves.
