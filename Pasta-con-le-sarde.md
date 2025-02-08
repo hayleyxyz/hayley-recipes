@@ -1,23 +1,19 @@
 # Pasta con le sarde
 
+![Pasta con le sarde](./img/Pasta-con-le-sarde.jpg)
+
 ## Ingredients
 
-- 1 - 2 loaves of bread
+- 1 - 2 slices of bread
 - 1 tin of sardines in olive oil
 - 2 cloves of garlic
 - 1/2 tsp chilli flakes
-- 1 tbsp fennel seeds (?)
 - 3 tbsp pine nuts
 - 3 tbsp raisins
 - 3 tbsp capers
 - 1 tbsp fennel seeds
+- 1 Lemon
 - Spagetti
-
-
-## Image
-
-![Pasta con le sarde](./img/Pasta-con-le-sarde.jpg)
-
 ## Method
 
 ### Prep

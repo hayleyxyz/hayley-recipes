@@ -1,4 +1,4 @@
-# Beef Meetballs
+# Beef Meatballs
 
 For 2 people
 

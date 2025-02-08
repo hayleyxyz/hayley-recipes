@@ -1,18 +1,22 @@
-# Japanese curry
+# Japanese Curry (from roux cubes)
 
 ## Ingredients
-- 1 Large leek
-- Chicken, Lamb or Beef (450g+)
-- Potatoes
+
+- 1 Leek
+- Meat of choice (chicken thighs, beef, lamb)
 - Carrots
-- Curry roux
-- Onion
-- 2-3 Garlic cloves
-- Virgin or Refined Olive oil
-- Worcestershire sauce
-- Garlic (optional)
-- Herbs: Thyme, Rosemary, Sage, Oregano etc. (optional)
+- Potatoes
+- 1 Onion
+- 3-5 Garlic cloves
+- Olive oil
+- Worcestershire sauce  
+- Curry roux cubes
+- Stock
 
 ## Method
 
-- Cut the onion, and mince the garlic cloves.
+- In a cassarole pot, heat some oil on medium - high and brown the meat. Remove and set aside.
+- Add the onion, garlic, carrots, and leek to the pot and cook until soft.
+- Add the meat back to the pot. Add the potatoes, curry roux cubes, Worcestershire sauce, and stock.
+- Bring to a simmer and cook for at least 1 hour. The longer the better.
+- Serve with rice.

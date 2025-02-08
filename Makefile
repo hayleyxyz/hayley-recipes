@@ -38,6 +38,6 @@ $(PDF_DIR):
 # Clean generated HTML files
 clean:
 	rm -rf $(HTML_DIR)
-	rm -rf $(PDF_DIR)
+	rm -rf $(PDF_DIR) 
 
 .PHONY: all clean

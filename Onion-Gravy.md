@@ -22,7 +22,7 @@
 - Add a chunk of butter (about 15g). Add the onions and fry for a minute or two.
 - Add the brown sugar, if using, stir. Add the minced garlic.
   - Make sure the beef stock is prepared and ready.
-- Add another 15-20g of butter. Once it's melted, add the flour, one half-to whole tablespoon at a time while constantly whisking. You can also pour in some of the broth at this stage too. Ensure you are keeing the consistency you want.
+- Add another 15-20g of butter. Once it's melted, add the flour, one half-to whole tablespoon at a time while constantly whisking. You can also pour in some of the broth at this stage too. Ensure you are keeping the consistency you want.
 - If using red wine, add that too while stirring and keeping the consistency.
 - Season with worcestershire sauce, herbs, salt, pepper.
 - Leave to simmer on low for at least 10 mins.
